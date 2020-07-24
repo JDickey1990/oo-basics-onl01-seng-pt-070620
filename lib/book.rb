@@ -36,7 +36,9 @@ class Book
     def turn_page
       puts "Flippng the page...wow, you read fast!"
     end
-    
+     
+    book= Book.new("Some Title")
+    book.turn_page
 end
 
 
